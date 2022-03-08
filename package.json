@@ -1,0 +1,24 @@
+{
+  "name": "herokugit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andyjshaw000/HerokuGit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andyjshaw000/HerokuGit/issues"
+  },
+  "homepage": "https://github.com/andyjshaw000/HerokuGit#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "multer": "^1.4.4"
+  }
+}

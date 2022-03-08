@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--
+  Andy J Shaw
+  2/23/2022
+  AF Ludvig Liljenberg
+
+  This is the lovetest.html page for CP4. The menu contains the standard pages for a "portfolio".
+  It contains a form to input names and a gif. When names are inputted, a number will be generated
+  on how compatible one person is with the other person.
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;900&display=swap" rel="stylesheet">
+    <script src="index.js"></script>
+    <script src="lovetest.js"></script>
+    <title>Trinh &amp; Andy</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="gallery.html">Our Gallery</a></li>
+        <li><a href="why.html">Why I Like You</a></li>
+        <li><a href="meme.html">Meme</a></li>
+        <li><a href="lovetest.html">Love Tester</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section>
+        <h1>Find Out Compatibility!</h1>
+        <form id="input-form">
+          <label for="name1">First name:</label>
+          <input type="text" id="name1" name="name1">
+          <label for="name2">Second name:</label>
+          <input type="text" id="name2" name="name2">
+          <input type="submit" value="Submit">
+        </form>
+      </section>
+      <article>
+        <!-- Image is taken from https://tenor.com/view/love-meter-gif-20409383 -->
+        <img id="heart" src="imagestrinh/meter.gif" alt="Animated love meter">
+      </article>
+      <section id="results">
+
+      </section>
+    </main>
+  </body>
+</html>
